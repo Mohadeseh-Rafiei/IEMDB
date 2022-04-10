@@ -1,0 +1,198 @@
+.fixed-header, .fixed-footer{
+    width: 100%;
+    height: 4%;
+    position: fixed;
+    background: #B12025;
+    top: 0px;
+    left: 0px;
+    padding: 20px 10px 10px 10px;
+}
+
+.iemdb-icon {
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.account-icon {
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+
+body {
+    background: #292929;
+}
+
+.actor-picture{
+    height: 60%;
+    width: 30%;
+    position: absolute;
+    left: 0.01%;
+    top: 8%;
+}
+.actor-text {
+    color: #FFFFFF;
+    font-family: Vazirmatn, sans-serif;
+    top: 15%;
+    right: 10%;
+    position: fixed;
+}
+
+.actor-title {
+    color: #FFFFFF;
+    font-family: Vazirmatn, sans-serif;
+    top: 10%;
+    right: 30%;
+    position: fixed;
+}
+
+
+.actor-movies {
+    height: 23%;
+    position: fixed;
+    background: #4E4E50;
+    top: 45%;
+    left: 32%;
+    right: 1%;
+    border-radius: 5px;
+}
+
+.movies-pictures {
+    height: 80%;
+    position: absolute;
+    bottom: 10%;
+    width: 20%;
+}
+
+
+.movies-pictures div {
+    bottom: 25%;
+    position: absolute;
+    top: 22%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    font-size: 1.35vw;
+    color: white;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 0s, opacity 0.5s linear;
+    word-wrap: break-word;
+}
+
+.movies-pictures:hover img{
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+.movies-pictures:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;
+}
+
+.rate-box {
+    width: 10%;
+    height: 20%;
+    position: fixed;
+    background: #B12025;
+    top: 25%;
+    right: 20%;
+    padding: 20px 10px 10px 10px;
+    opacity: 0.7;
+}
+
+.movie-box {
+    width: 10%;
+    height: 20%;
+    position: fixed;
+    top: 25%;
+    left: 20%;
+    padding: 20px 10px 10px 10px;
+}
+
+.rate-box div {
+    font-family: Vazirmatn sans-serif; !important;
+    font-size: 100px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.rate-box img {
+    top: 35%;
+    left: 30%;
+    position: absolute;
+    width: 42%;
+    height: 22%;
+    opacity: 100%; !important;
+}
+
+.rate-box:hover img {
+    content: url("resources/rating/ftipng.com-Five-Stars-Five-Star-Rating-five-stars.png");
+    background-color: #B12025;
+    border-radius: 10px;
+    width: 870px;
+    height: 25%;
+}
+
+.actor-movies text {
+    font-family: Vazirmatn, sans-serif; font-size: 40px; color: #FFFFFF; right: 48%; position: fixed;
+}
+
+.actor-movies img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    top: 56%;
+    position: fixed;
+}
+
+.actor-movies text{
+    width: 8%;
+    height: 8%;
+    top: 60%;
+    position: fixed;
+    color: #FFFFFF;
+    font-size: 65px;
+    font-family: Vazirmatn;
+    word-wrap: break-word;
+    visibility: hidden;
+}
+.actor-movies:hover text{
+    visibility: visible;
+}
+
+.actor-movies:hover img {
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
+.actor-movies comment {
+    background-color: #FFFFFF;
+    height: 25%;
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    border-radius: 10px;
+}
+
+.actor-movies comment div {
+    font-family: Vazirmatn;
+    font-size: 50px;
+    position: absolute;
+    right: 7%;
+}
+
+.actor-movies comment img {
+    position: absolute;
+    top: 10%;
+    border-radius: 0%;
+    right: 90%;
+    width: 4%;
+    height: 20%;
+}
